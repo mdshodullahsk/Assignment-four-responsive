@@ -42,3 +42,39 @@ body{
     height: 424px;
     margin: 111px 0 0 80px;
 }
+/* Section two */
+/* manue */
+.manue {
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    background-color: #f2aa4cff;
+}
+.manue-btn {
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manue-btn>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#blog {
+    background-color: #101820ff;
+}
+#blog>a {
+    color: white;
+}
+.manue {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
