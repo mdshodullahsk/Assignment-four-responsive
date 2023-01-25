@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin: 40px 100px 0 100px;
+}
+/* Cover Section */
+.cover-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+.cover-area {
+    height: 646px;
+    background-color: #f2aa4cff;
+    border-radius: 30px;
+}
+/* background-color: #101820ff; */
+.main-title-area>h1 {
+    margin: 0%;
+    font-size: 70px;
+    line-height: 110%;;
+}
+.main-title-area>p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.watch {
+    background-color: #101820ff;
+    padding: 16px 25px;
+    border-radius: 5px;
+    color: white;
+}
+.watch a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.main-title-area {
+    width: 531px;
+    height: 424px;
+    margin: 111px 0 0 80px;
+}
