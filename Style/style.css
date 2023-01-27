@@ -28,7 +28,7 @@ body{
 .main-title-area>h1 {
     margin: 0%;
     font-size: 5vw;
-    line-height: 110%;;
+    line-height: 120%;;
 }
 .main-title-area>p {
     /* font-size: 16px; */
@@ -164,9 +164,12 @@ body{
 }
 .contain>p {
     font-size: 18px;
+    margin-left: 10px;
 }
 .information {
     display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 .comment {
     margin-left: 30px;
@@ -176,7 +179,9 @@ body{
 .blogs  {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    /* gap: 10px; */
+    column-gap: 10px;
+    row-gap: 25px;
 }
 .one {
     grid-column: 1 ;
@@ -267,6 +272,8 @@ footer {
     .footer-info {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+
+        justify-content: center;
     }
     .footer-logo>h4 {
         padding-top: 50px;
