@@ -181,7 +181,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
     /* gap: 10px; */
     column-gap: 10px;
-    row-gap: 25px;
+    row-gap: 35px;
 }
 .one {
     grid-column: 1 ;
@@ -272,9 +272,9 @@ footer {
     .footer-info {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-
-        justify-content: center;
+        align-content: space-around;
     }
+
     .footer-logo>h4 {
         padding-top: 50px;
         margin-bottom: 40px;
