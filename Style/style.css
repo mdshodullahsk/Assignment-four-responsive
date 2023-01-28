@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: #101820ff;
+    background-color: rgba(247, 249, 250, 0.993);
 }
 .container {
     margin: 40px 100px 0 100px;
@@ -98,7 +99,6 @@ body{
     .main-title-area>h1 {
         margin: 0%;
         font-size: 22px;
-        line-height: 110%;;
     }
     .main-title-area>p {
         /* font-size: 16px; */
@@ -107,7 +107,7 @@ body{
         margin-bottom: 12px;
     }
     .main-title-area {
-        margin: 25px 5px 0 5px;
+        margin: 35px 5px 0 5px;
     }
     .cover-image img {
         width: 70%;
@@ -126,7 +126,6 @@ body{
     align-content: space-evenly;
     align-items: center;
 }
-
 .manue-btn>a:hover {
     background-color: rgb(231, 184, 184);
 }
@@ -152,6 +151,10 @@ body{
 #blog-btn>a {
     color: white;
 }
+.contain-blogs {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .contain img {
     border-radius: 10px;
 }
@@ -173,6 +176,7 @@ body{
 }
 .comment {
     margin-left: 30px;
+    padding-bottom: 10px;
 }
 /* Blogs */
 
@@ -194,6 +198,11 @@ body{
 }
 .contain>p {
     margin-bottom: 0px;
+}
+.vew-all {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* Section two Teb Responsive */
@@ -218,12 +227,19 @@ body{
     .blogs  {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        row-gap: 20px;
+        /* row-gap: 20px; */
+        gap: 30px;
         align-content: space-around;
     }
     .one {
         grid-column: 1 ;
         grid-column: 1 / span 2;
+    }
+    .eight, .nine, .ten {
+        display: none;
+    }
+    .vew-all {
+        display: block;
     }
   }
 
